@@ -1,0 +1,150 @@
+#navbar{
+    height:50px;
+    display: inline-block;
+    width:100%;
+}
+.rightnavbar{
+    float: right;
+}
+
+.navbar-item{
+    display: inline-block;
+    padding:20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin:10px;
+}
+
+#wrapper{
+    width:80%;
+    margin:auto;
+}
+
+#wrapper::after{
+    clear: both;
+}
+
+#content::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+#content{
+    margin-top:50px;
+    border-style: solid;
+    border-width: 2px;
+    padding:10px;
+    background-color:#FFFFFF
+}
+
+.content-title{
+    font-size: 36px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+#footer{
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    background-color:#666666;
+    font-size: 20px;
+    text-align: center;
+}
+
+#fixed-footer-cuz-sticky-looks-worse{
+    position:fixed;
+    bottom:0;
+    background-color:#666666;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#about-me-image{
+    float: left;
+    margin:5px 25px 10px 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+#about-me-paragraph{
+    margin:5px;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/cork-board.png');
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ }
+
+.minheight{
+    height: 100%;
+}
+
+#name-textfield{
+    display: block;
+    width:100%;
+    margin-bottom:10px;
+}
+
+#email-textfield{
+    display:block;
+    width:100%;
+    margin-bottom:10px;
+}
+
+#message-textarea{
+    display:block;
+    width:100%;
+    margin-bottom:10px;
+}
+
+.leftportfolio{
+    margin:20px;
+    position: relative;
+    display: inline-block;
+}
+
+.leftportfolio-image-text{
+    position: absolute;
+    text-align: center;
+    top:120;
+    width:200px;
+    background-color:tan;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rightportfolio{
+    margin:20px;
+    position:relative;
+    display: inline-block;
+}
+
+.rightportfolio-image-text{
+    position: absolute;
+    text-align: center;
+    top:120;
+    width:200px;
+    background-color:tan;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+img{
+    margin:0px;
+}
+
+.div-block{
+    display: block;
+}
+
+.title{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
