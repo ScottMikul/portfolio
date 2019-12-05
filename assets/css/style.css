@@ -55,26 +55,25 @@
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-weight: bold;
 }
-
 #footer{
+    border-top:10px solid #4AAAA5;
+    background-color:#666666;
+    font-size: 20px;
+    text-align: center;
+    color:#FFFFFF;
+    font-size:15px;
+    padding-top: 20px;
+}
+
+.sticky-footer{
     position: -webkit-sticky;
     position: sticky;
     bottom: 0;
-    border-top:2px solid #4AAAA5;
-    background-color:#666666;
-    font-size: 20px;
-    text-align: center;
-    color:#FFFFFF;
 }
 
-#fixed-footer{
+.fixed-footer{
     position:fixed;
     bottom:0;
-    border-top:2px solid #4AAAA5;
-    background-color:#666666;
-    color:#FFFFFF;
-    font-size: 20px;
-    text-align: center;
     width: 100%;
 }
 
@@ -107,31 +106,23 @@ html, body {
     height: 100%;
 }
 
-#name-textfield{
+.contact-form{
     display: block;
     width:100%;
     margin-bottom:10px;
 }
 
-#email-textfield{
-    display:block;
-    width:100%;
-    margin-bottom:10px;
+.bottom-margin{
+    margin-bottom: 40px;
 }
 
-#message-textarea{
-    display:block;
-    width:100%;
-    margin-bottom:10px;
-}
-
-.leftportfolio{
+.portfolio-item{
     margin:20px;
     position: relative;
     display: inline-block;
 }
 
-.leftportfolio-image-text{
+.portfolio-item-text{
     position: absolute;
     text-align: center;
     top:120;
@@ -142,22 +133,6 @@ html, body {
     color:#FFFFFF;
 }
 
-.rightportfolio{
-    margin:20px;
-    position:relative;
-    display: inline-block;
-}
-
-.rightportfolio-image-text{
-    position: absolute;
-    text-align: center;
-    top:120;
-    width:200px;
-    color:#FFFFFF;
-    background-color:tan;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 
 img{
     margin:0px;
