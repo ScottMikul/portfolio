@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,27 +9,30 @@
 </head>
 <body>
     <div id="whiteheader">
-        <div id="wrapper">
+        <div class="wrapper">
             <div id ="navbar">
                     <div class="title navbar-item"> Scotty Mikul</div>
-                    <a class="rightnavbar navbar-item" style="display: inline-block; "href="contact.html"> <div > Contact </div></a>
-                    <a class="rightnavbar navbar-item" style="display: inline-block; "href="portfolio.html"><div > Portfolio </div></a>
-                    <a class="rightnavbar navbar-item" style="display: inline-block;  "href="index.html"><div > About </div></a>
+                    <a class="rightnavbar navbar-item" href="contact.html"> <div > Contact </div></a>
+                    <a class="rightnavbar navbar-item" href="portfolio.html"><div > Portfolio </div></a>
+                    <a class="rightnavbar navbar-item" href="index.html"><div > About </div></a>
             </div>
         </div>
     </div>
-    <div id="wrapper">
+    <div class="wrapper">
             <div id="content"> 
                 <div class="content-title">Contact</div>
                 <hr>
                 <div>
                     <form>
-                        <label for="name" id="name-label"> Name</label>
-                        <input type="text" name="name" id="name-textfield" placeholder="Your Name" class="contact-form">
-                        <label for="email" id="email-label"> Email</label>
-                        <input type="email" name="email" id="email-textfield" placeholder="Example@emailaddress.com" class="contact-form">
-                        <label for="message" id="message-label"> Message</label>
-                        <textarea name="message" id="message-textarea" cols="30" rows="10" placeholder="Enter a message" class="contact-form"></textarea>
+                        <label > 
+                                Name <input type="text" name="name" id="name-textfield" placeholder="Your Name" class="contact-form">
+                        </label>
+                        <label > 
+                                Email <input type="email" name="email" id="email-textfield" placeholder="Example@emailaddress.com" class="contact-form">
+                        </label>
+                        <label > 
+                                Message<textarea name="message" id="message-textarea" cols="30" rows="10" placeholder="Enter a message" class="contact-form"></textarea>
+                        </label>
                         <button type="submit">Submit</button>
                     </form>
                 </div>
